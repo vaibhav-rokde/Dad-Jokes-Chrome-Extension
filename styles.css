@@ -1,0 +1,53 @@
+:root {
+    --background-dark: #0f172a;
+    --container-gray: #303443;
+    --text-white: #ffffff;
+    --button-bg: #3c82f6;
+    --button-bg-hover: #2a6bc2;
+    --border-color: #444;
+}
+
+body {
+    background-color: var(--background-dark);
+    color: var(--text-white);
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+}
+
+#joke-container {
+    background-color: var(--container-gray);
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 10px;
+    border: 1px solid var(--border-color);
+    width: 80%; /* Adjusted width */
+    max-width: 600px; /* Adjusted max-width */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Optional: Add shadow for a more professional look */
+}
+
+#joke {
+    font-size: 1rem; /* Decreased font size slightly */
+    color: var(--text-white);
+    /*text-align: center;*/
+    line-height: 1.5; /* Line height for better readability */
+    word-wrap: break-word; /* Ensure text wraps correctly */
+    word-break: normal; /* Prevent words from breaking unnaturally */
+    margin: 0 auto; /* Center the text within the container */
+}
+
+#fetch-joke {
+    padding: 10px 20px;
+    background-color: var(--button-bg);
+    color: var(--text-white);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 20px; /* Add space between the button and the container */
+}
+
+#fetch-joke:hover {
+    background-color: var(--button-bg-hover);
+}

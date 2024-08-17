@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "Random Dad Joke",
+    "version": "1.0",
+    "description": "Get a random dad joke every time you click the extension!",
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "images/icon.png",
+        "48": "images/icon.png",
+        "128": "images/icon.png"
+      }
+    }
+  }
+  
